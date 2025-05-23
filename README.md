@@ -1,3 +1,6 @@
+> [!WARNING]
+> In progress: Extension of `eframe_template` to support rayon parallelism in wasm + on Github Pages
+
 # eframe template
 
 [![dependency status](https://deps.rs/repo/github/emilk/eframe_template/status.svg)](https://deps.rs/repo/github/emilk/eframe_template)
