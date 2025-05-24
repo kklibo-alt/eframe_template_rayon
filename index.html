@@ -17,6 +17,7 @@
     <link data-trunk rel="icon" href="assets/favicon.ico">
 
 
+    <link data-trunk rel="copy-file" href="assets/coi-serviceworker.js" />
     <link data-trunk rel="copy-file" href="assets/sw.js"/>
     <link data-trunk rel="copy-file" href="assets/manifest.json"/>
     <link data-trunk rel="copy-file" href="assets/icon-1024.png" data-target-path="assets"/>
@@ -130,6 +131,10 @@
         </p>
         <div class="lds-dual-ring"></div>
     </div>
+
+    <!-- Enable COOP & COEP on Github Pages -->
+    <!-- ( https://github.com/gzuidhof/coi-serviceworker ) -->
+    <script src="coi-serviceworker.js"></script>
 
     <!--Register Service Worker. this will cache the wasm / js scripts for offline use (for PWA functionality). -->
     <!-- Force refresh (Ctrl + F5) to load the latest files instead of cached files  -->
